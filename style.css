@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    grid-template-rows: 2fr 1fr 8fr 1fr;
+    gap: 4px;
+    height: 700px;
+  }
+  
+  .container div {
+    padding: 15px;
+    font-size: 32px;
+    font-family: Helvetica;
+    font-weight: bold;
+    color: white;
+  }
+  
+  .header {
+    background-color: #393f4d;
+    grid-column: span 2;
+    grid-row: 1 / 2;
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+  
+  }
+  
+  
+  .menu ul {
+    font-size: 16px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    
+  }
+  
+  .menu li {
+    display: grid;            /* new */
+    align-items: center;      /* new */
+    justify-items: end; 
+  }  
+  
+  
+  .sidebar .photo {
+    background-color: white;
+    color: black;
+    font-size: 12px;
+    font-weight: normal;
+    border-radius: 10px;
+  }
+  
+  .sidebar {
+    background-color: #C50208;
+    grid-row: 2 / 4;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    gap: 50px;
+  }
+  
+  .sidebar .side-content {
+    display: grid;            /* new */
+    align-items: center;      /* new */
+    justify-items: center; 
+    background-color: white;
+    color: black;
+    font-size: 16px;
+    font-weight: normal;
+  }
+  
+  .sidebar .photo {
+    display: grid;            /* new */
+    align-items: center;      /* new */
+    justify-items: center; 
+  }
+  
+  .nav ul{
+    padding: 20px;
+    background-color: #C50208;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  
+  .nav ul li {
+    display: grid;            /* new */
+    align-items: center;      /* new */
+    justify-items: center; 
+    font-size: 16px;
+    text-transform: uppercase;
+  }
+  
+  
+  .article {
+    background-color: #bccbde;
+    grid-column: 2 / 3;
+    grid-row: 3 / 4;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap:15px 
+  }
+  
+  .article p {
+    font-size: 18px;
+    font-family: sans-serif;
+    color: white;
+    text-align: left;
+  }
+  
+  .article .card {
+    background-color: #FFFFFF;
+    color: black;
+    text-align: center;
+  }
+  
+  .card p {
+    color: black;
+    font-weight: normal;
+    font-size: 14px;
+  }
+  
+  .card .title {
+    font-size: 18px;
+    text-align: center;
+  }
+  
+  .footer {
+    background-color: #393f4d;
+    grid-row: 4 / 5;
+    grid-column: 1 / 3 ;
+  }
+  
+  .footer p {
+    font-size: 13px;
+    font-weight: normal;
+  
+  }
