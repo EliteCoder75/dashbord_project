@@ -53,7 +53,7 @@
   }
   
   .sidebar {
-    background-color: #C50208;
+    background-color: #0284c7;
     grid-row: 1 / 4;
     grid-column: 1 / 2;
   }
@@ -114,8 +114,13 @@
   }
 
   .title {
+    padding-left: 10px;
     font-size: 10px;
     text-align: center;
+  }
+
+  .Dashbord-title {
+    padding-left: 10px;
   }
   
   img {
