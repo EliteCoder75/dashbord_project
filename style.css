@@ -15,6 +15,7 @@
     height: 920px;
     margin-left: 200px;
     margin-right: 200px;
+    
   }
   
   .container div {
@@ -75,14 +76,12 @@
   }
   
 
-
   .announcement {
     background-color: #bccbde;
     grid-column: 3 / 4;
     grid-row: 2 / 4;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
     gap: 10px;
   }
 
@@ -120,8 +119,8 @@
 
   .announcement>div {
     border-radius: 10px;
-    flex: 0 1 45%;
     background-color: #FFFFFF;
+    flex: 1;
     color: black;
     text-align: center;
   }
@@ -184,9 +183,19 @@
   }
  
   .up-logo {
+    height: 30px;
+    width: 30px;
+  }
+
+  .body-logo {
     height: 20px;
     width: 20px;
-    filter: invert(0%) sepia(0%) saturate(13%) hue-rotate(235deg) brightness(105%) contrast(105%);
+    padding: 3px;
+  }
+
+  .down-logo {
+    height: 40px;
+    width: 40px;
   }
   .Dashbord-title {
     font-size: 25px;
@@ -219,7 +228,14 @@
   .trend {
     display: flex;
     align-items: center;
+    height: 20px;
   }
+
+  .trending {
+    
+  }
+
+
   .xt {
     display: flex;
     flex-direction: column; 
@@ -229,6 +245,7 @@
     color: rgb(134, 134, 134);
     font-weight:lighter;
     font-size: 14px;
+    text-align: left;
   }
 
   .first-container {
@@ -239,14 +256,14 @@
   }
 
   .first-container1 {
-    flex: 0 1 80%;
+    flex: 0 1 70%;
     display: flex;
     flex-direction: row;
     
   }
 
   .first-container2 {
-    flex: 0 1 20%;
+    flex: 0 1 30%;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -256,13 +273,14 @@
     width: 600px;
     border-radius: 50px;
     background-color: #e6effc;
+    border-color: #e6effc;
     margin-left: 20px;
   }
 
   .second-container {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
   }
 
   .second-container1 {
@@ -277,8 +295,14 @@
     font-size: medium; 
     font-weight: bold;
     background-color:#0284c7;
+    border-color: #e6effc;
     color: aliceblue;
   }
+
+  .header-text {
+    padding-top: 5px ;
+  }
+  
 
  
 
