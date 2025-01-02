@@ -26,11 +26,9 @@
   }
   
   .header {
-    background-color: #393f4d;
+    background-color: rgb(255, 255, 255);
     grid-column: 2 / 4;
     grid-row: 1 / 2;
-    display: grid;
-    grid-template-columns: 1fr 4fr;
   }
   
   
@@ -107,6 +105,13 @@
   }
 
   .announcement p {
+    font-size: 18px;
+    font-family: sans-serif;
+    color: black;
+    text-align: left;
+  }
+
+  .first-container2 p {
     font-size: 18px;
     font-family: sans-serif;
     color: black;
@@ -226,5 +231,55 @@
     font-size: 14px;
   }
 
+  .first-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+  }
+
+  .first-container1 {
+    flex: 0 1 80%;
+    display: flex;
+    flex-direction: row;
+    
+  }
+
+  .first-container2 {
+    flex: 0 1 20%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+
+  div>input {
+    width: 600px;
+    border-radius: 50px;
+    background-color: #e6effc;
+    margin-left: 20px;
+  }
+
+  .second-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  .second-container1 {
+    display: flex;
+    align-items: center;
+  }
+
+  .second-container2 button {
+    width: 100px;
+    height: 40px;
+    border-radius: 50px;
+    font-size: medium; 
+    font-weight: bold;
+    background-color:#0284c7;
+    color: aliceblue;
+  }
+
+ 
 
   
